@@ -4,7 +4,7 @@ SelectiveEC is a new recovery task scheduling module that provides provable netw
 
 If you use SelectiveEC in your work or research, please kindly let us know.  Regular version is published in IEEE Transactions on Parallel and Distributed Systems. We also encourage you to reference our paper:
 
-Here is the workshop and journal bibtex:
+Here is the workshop and journal bibtexs:
 
        @inproceedings{xu2020selectiveec,
         author = {Xu, Liangliang and Lyu, Min and Li, Qiliang and Xie, Lingjiang and Xu, Yinlong},
