@@ -2,9 +2,9 @@
 
 SelectiveEC is a new recovery task scheduling module that provides provable network traffic and recovery load balancing for large-scale EC-based storage systems. It relies on bipartite graphs to model the recovery traffic among live nodes. Then, it intelligently selects tasks to form batches and carefully determines where to read source blocks or to store recovered ones, using theories such as a perfect or maximum matching and k-regular spanning subgraph. SelectiveEC supports single-node failure and multi-node failure  recovery, and can be deployed in both  homogeneous and heterogeneous network environments. We implement SelectiveEC in HDFS 3. SelectiveEC increases the recovery throughput by up to 30.68% compared with state-of-the-art baselines in homogeneous network environments.  It further achieves  1.32x  recovery throughput and 1.23x benchmark throughput  of HDFS on average in heterogeneous network environments , due to the straggler avoidance by the balanced scheduling.
 
-If you use SelectiveEC in your work or research, please kindly let us know.  Regular version is under review in IEEE Transactions on Parallel and Distributed Systems. We also encourage you to reference our paper:
+If you use SelectiveEC in your work or research, please kindly let us know.  Regular version is published in IEEE Transactions on Parallel and Distributed Systems. We also encourage you to reference our paper:
 
-Here is the workshop bibtex:
+Here is the workshop and journal bibtex:
 
        @inproceedings{xu2020selectiveec,
         author = {Xu, Liangliang and Lyu, Min and Li, Qiliang and Xie, Lingjiang and Xu, Yinlong},
@@ -14,7 +14,14 @@ Here is the workshop bibtex:
         year = {2020},
         publisher = {USENIX}
       } 
-
+       @inproceedings{xu2021tpds,
+        author={Xu, Liangliang and Lyu, Min and Li, Qiliang and Xie, Lingjiang and Li, Cheng and Xu, Yinlong},  journal={IEEE Transactions on Parallel and Distributed Systems},
+        year={2022},  
+	volume={33},  
+	number={10},  
+	pages={2386-2400},  
+	doi={10.1109/TPDS.2021.3129973}
+      }
 
 ## Dependencies
 
