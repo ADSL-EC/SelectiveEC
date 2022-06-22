@@ -15,7 +15,9 @@ Here is the workshop and journal bibtex:
         publisher = {USENIX}
       } 
        @inproceedings{xu2021tpds,
-        author={Xu, Liangliang and Lyu, Min and Li, Qiliang and Xie, Lingjiang and Li, Cheng and Xu, Yinlong},  journal={IEEE Transactions on Parallel and Distributed Systems},
+        author={Xu, Liangliang and Lyu, Min and Li, Qiliang and Xie, Lingjiang and Li, Cheng and Xu, Yinlong},
+	title={SelectiveEC: Towards Balanced Recovery Load on Erasure-Coded Storage Systems}, 
+	journal={IEEE Transactions on Parallel and Distributed Systems},
 	year={2022},
 	volume={33},
 	number={10},
